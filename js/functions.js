@@ -36,5 +36,5 @@ const myPadStart = (string, minLength, pad) => {
     return string;
   }
 
-  return pad.slice(0, actualPad % pad.length) + pad.repeat(actualPad / pad.lenght) + string ;
+  return pad.slice(0, actualPad % pad.length) + pad.repeat(actualPad / pad.length) + string ;
 };
