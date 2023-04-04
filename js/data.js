@@ -4,7 +4,7 @@ const PICTURE_COUNT = 25;
 const AVATAR_COUNT = 6;
 const LIKE_MIN_COUNT = 15;
 const LIKE_MAX_COUNT = 200;
-const COMMENTS_COUNT = 5;
+const COMMENTS_COUNT = 10;
 
 const COMMENTS_LINES = [
   'Всё отлично!',
@@ -65,5 +65,5 @@ const getPictures = ()=>
   Array.from({ length: PICTURE_COUNT},(_, pictureIndex) =>
     createPicture(pictureIndex + 1)
   );
-getPictures();
+
 export {getPictures};
